@@ -1,0 +1,1062 @@
+{
+  "metadata": {
+    "kernelspec": {
+      "name": "python",
+      "display_name": "Python (Pyodide)",
+      "language": "python"
+    },
+    "language_info": {
+      "codemirror_mode": {
+        "name": "python",
+        "version": 3
+      },
+      "file_extension": ".py",
+      "mimetype": "text/x-python",
+      "name": "python",
+      "nbconvert_exporter": "python",
+      "pygments_lexer": "ipython3",
+      "version": "3.8"
+    }
+  },
+  "nbformat_minor": 5,
+  "nbformat": 4,
+  "cells": [
+    {
+      "id": "b7357e40-d46f-4629-92fb-d0ce49b234bf",
+      "cell_type": "code",
+      "source": "print(\"hello\")",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "hello\n"
+        }
+      ],
+      "execution_count": 1
+    },
+    {
+      "id": "dd3552ec-c390-4bc0-bfae-c3471e8854ad",
+      "cell_type": "code",
+      "source": "print(\"hello shubham jain how are you\",\"my age in 19\")",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "hello shubham jain how are you my age in 19\n"
+        }
+      ],
+      "execution_count": 7
+    },
+    {
+      "id": "7d42afc1-6b38-4059-8966-4d9cee7ce470",
+      "cell_type": "code",
+      "source": "print(\"my age in 19\")",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "my age in 19\n"
+        }
+      ],
+      "execution_count": 6
+    },
+    {
+      "id": "fe205a36-22f8-4329-973a-0cee043cac76",
+      "cell_type": "code",
+      "source": "a = 10\nb = 20\nprint(a+b)",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "30\n"
+        }
+      ],
+      "execution_count": 8
+    },
+    {
+      "id": "18bf9bf2-e35a-4e0b-a93e-e0f5021c9282",
+      "cell_type": "code",
+      "source": "#variables  = \nname = \"shubham\"\nage = 19\naddress = \"jaipur\"\nprice = 22.22\nold = False\na = None\nprint(name,age,address)\nprint(\"my name is=\",name)\nprint(type(name))\nprint(type(age))\nprint(type(price))\nprint(type(old))\nprint(type(a))",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "shubham 19 jaipur\nmy name is= shubham\n<class 'str'>\n<class 'int'>\n<class 'float'>\n<class 'bool'>\n<class 'NoneType'>\n"
+        }
+      ],
+      "execution_count": 21
+    },
+    {
+      "id": "f60affbc-f836-4151-973a-45ffaa2bd7a1",
+      "cell_type": "code",
+      "source": "a = 22210\nb = 60000\nsum = a + b\nprint(sum)",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "82210\n"
+        }
+      ],
+      "execution_count": 25
+    },
+    {
+      "id": "2f1076a7-0024-499f-b489-76810dc45178",
+      "cell_type": "code",
+      "source": "A,B = 2,3\ntax = \"@\"\nprint(2*tax*3)",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "@@@@@@\n"
+        }
+      ],
+      "execution_count": 27
+    },
+    {
+      "id": "9bdacb03-e3ce-4f64-90cf-657f679acaba",
+      "cell_type": "code",
+      "source": "a,b = '2',3\ntax = '@'\nprint((2*tax)*3)",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "@@@@@@\n"
+        }
+      ],
+      "execution_count": 29
+    },
+    {
+      "id": "311d9ac2-54de-4660-9931-313aec034e20",
+      "cell_type": "code",
+      "source": " #comment   ==\n'''comment\n\n'''\n#print()\nprint('''hello''')\n\n",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": null
+    },
+    {
+      "id": "c7f4c4b1-f191-4d86-94d5-d4bb79b53b72",
+      "cell_type": "code",
+      "source": "#input in python\n#taking input from user\nname = input(\"name : \")\n \nage = int(input(\"age : \"))\n\nprice = float(input(\"name : \"))\n \nprint(name, age,price)",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdin",
+          "text": "name :  shubham\nage :  19\nname :  29.8\n"
+        },
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "shubham 19 29.8\n"
+        }
+      ],
+      "execution_count": 37
+    },
+    {
+      "id": "0ad52eaa-07aa-4e77-a919-1547fce9aa01",
+      "cell_type": "code",
+      "source": "#condition statements  == \n'''\nif(condition):\n    statement1\nelif(condition):\n    statement2\nelse(condition):\n    statementN\n\n    '''\nlight = input(\"enter light:\")\nif (\"red\"):\n    print(\"stop\")\nelif(yellow):\n    print(\"look\")\nelse:\n    print(go)",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdin",
+          "text": "enter light: red\n"
+        },
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "stop\n"
+        }
+      ],
+      "execution_count": 46
+    },
+    {
+      "id": "e054b605-624a-4dd7-a9c5-e49c23d6c317",
+      "cell_type": "code",
+      "source": "#strings\n''' str1 = \"this is a string\"\n    str2 = 'this is a string'\n    str3 = \"\"\"this is a string\"\"\"\n'''\nstr1 = \"this is a string\"\nprint(str1)\n",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "this is a string\n"
+        }
+      ],
+      "execution_count": 47
+    },
+    {
+      "id": "f2024215-b9e9-4052-b958-669dcf2c394a",
+      "cell_type": "code",
+      "source": "str1 =\"hello\"\nstr2 = \"HELLO\"\nprint(str1+str2)",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "helloHELLO\n"
+        }
+      ],
+      "execution_count": 50
+    },
+    {
+      "id": "3e375457-13f9-4499-840d-fa7edfde662b",
+      "cell_type": "code",
+      "source": "str1 = \"shubhamjain\"\nstr2 = \"how are you shubham jain\"\nprint(len(str1))\nprint(len(str2))\n",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "11\n24\n"
+        }
+      ],
+      "execution_count": 54
+    },
+    {
+      "id": "fbd74536-4fb7-4e80-8fa6-864e3f2a0d08",
+      "cell_type": "code",
+      "source": "#indexing  === \nstr1 = 'shubham jain'\nprint(str1[0])\nprint(str1[1])\nprint(str1[2])\nprint(str1[3])\nprint(str1[4])\nprint(str1[5])\nprint(str1[6])",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "s\nh\nu\nb\nh\na\nm\n"
+        }
+      ],
+      "execution_count": 62
+    },
+    {
+      "id": "f6e95581-bb78-4bba-8fd7-f0307ce3a0d6",
+      "cell_type": "code",
+      "source": "#slicing  ==\n\nstr = \"shubham\"\nprint(str[0:4])\nprint(str[4:6])\nprint(str[0:6])\nprint(str[3:6])\nprint(str[-6:-1])",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "shub\nha\nshubha\nbha\nhubha\n"
+        }
+      ],
+      "execution_count": 74
+    },
+    {
+      "id": "c4544f99-a5d6-4421-a985-964334631658",
+      "cell_type": "code",
+      "source": "#string function  === \nstr = \"shubham\"\nprint(str.replace(\"am\",\"oo\"))\nprint(str.find(\"a\"))\nprint(str.count(str))",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "shubhoo\n5\n1\n"
+        }
+      ],
+      "execution_count": 82
+    },
+    {
+      "id": "be702488-ced3-4575-aa40-8a9d42575b2e",
+      "cell_type": "code",
+      "source": "str = \"shubham\"\nprint(len(str))",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "7\n"
+        }
+      ],
+      "execution_count": 83
+    },
+    {
+      "id": "9c678699-12c4-4c87-a0b2-9095adc4c0dd",
+      "cell_type": "code",
+      "source": "str = \"shub$h$am\"\nprint(str.count(\"$\"))",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "2\n"
+        }
+      ],
+      "execution_count": 84
+    },
+    {
+      "id": "800e646e-2c73-427f-858e-bf46e1112b8c",
+      "cell_type": "code",
+      "source": "#condition statements  == \n'''\nif(condition):\n    statement1\nelif(condition):\n    statement2\nelse(condition):\n    statementN\n    '''\nage = 19\nif(age>19):\n    print(\"yesdriving\")\nelif(age == 19):\n    print(\"yes\")\n\nelse:\n    print(\"no\")",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "yes\n"
+        }
+      ],
+      "execution_count": 92
+    },
+    {
+      "id": "22e279b2-28ab-458d-966c-15e5c61b8776",
+      "cell_type": "code",
+      "source": "age = 19\n\nif age >= 19:\n    print(\"yes driving\")\nelse:\n    print(\"no\")",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "yes driving\n"
+        }
+      ],
+      "execution_count": 93
+    },
+    {
+      "id": "1f0606a4-af6c-45ce-b429-5d32739e5e27",
+      "cell_type": "code",
+      "source": "age > 19\nif(age>19):\n    print(\"yesdriving\")\nelif(age == 19):\n    print(\"yes\")\n\nelse:\n    print(\"no\")",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "yes\n"
+        }
+      ],
+      "execution_count": 95
+    },
+    {
+      "id": "95b5d20b-89e7-4171-8bec-f04d8f668fc5",
+      "cell_type": "code",
+      "source": " #lists  ==\n\nmarks = [23,45,66,77,98,77]\nprint(marks)\nprint(type(marks))\nprint(marks[0])\nprint(marks[5])",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "[23, 45, 66, 77, 98, 77]\n<class 'list'>\n23\n77\n"
+        }
+      ],
+      "execution_count": 6
+    },
+    {
+      "id": "b8254936-243b-438f-b063-e3fc2bca6843",
+      "cell_type": "code",
+      "source": "name = ['shubham',23,'jain']\nprint(name)\nprint(name[0])\nprint(name[-1])",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "['shubham', 23, 'jain']\nshubham\njain\n"
+        }
+      ],
+      "execution_count": 11
+    },
+    {
+      "id": "836b0d45-ff6b-4f1e-985e-4fbfcb1625cb",
+      "cell_type": "code",
+      "source": "#list slicing\n\nmarks = [77,88,56,90]\nprint(marks[ :4])\nprint(marks[ :-1])",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "[77, 88, 56, 90]\n[77, 88, 56]\n"
+        }
+      ],
+      "execution_count": 16
+    },
+    {
+      "id": "073e8d75-cfba-4385-b983-ad1c8b8cea00",
+      "cell_type": "code",
+      "source": "list = [3,9,7,8]\nlist.append(10)\nprint(list)\nlist.sort()\nprint(list)\nprint(list.sort)\nprint(list.sort(reverse=True))\nlist.reverse()\nprint(list)",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "[3, 9, 7, 8, 10]\n[3, 7, 8, 9, 10]\n<built-in method sort of list object at 0x2a4db78>\nNone\n[3, 7, 8, 9, 10]\n"
+        }
+      ],
+      "execution_count": 28
+    },
+    {
+      "id": "00444aab-17e6-481d-87eb-496438e4864c",
+      "cell_type": "code",
+      "source": "list = ['g','u','f']\nlist.reverse()\nprint(list)",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "['f', 'u', 'g']\n"
+        }
+      ],
+      "execution_count": 32
+    },
+    {
+      "id": "1d608cfc-7cc0-4204-b6d7-4fd1a34c9886",
+      "cell_type": "code",
+      "source": "list = [6,8,3]\nlist.insert(8, 9)\nprint(list)",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "[6, 8, 3, 9]\n"
+        }
+      ],
+      "execution_count": 35
+    },
+    {
+      "id": "b653519a-0740-49c1-ae03-ac146c6491ea",
+      "cell_type": "code",
+      "source": "list = [4,6,7,9]\nlist.pop(0)\nprint(list)",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "[6, 7, 9]\n"
+        }
+      ],
+      "execution_count": 39
+    },
+    {
+      "id": "2b507b48-eedf-4fbc-a8c1-f5a5fa998c18",
+      "cell_type": "code",
+      "source": "list = [6,6,75]\nlist.copy()\nprint(list)",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "[6, 6, 75]\n"
+        }
+      ],
+      "execution_count": 42
+    },
+    {
+      "id": "1f19adc0-9cab-4643-b38b-49755c13385e",
+      "cell_type": "code",
+      "source": "# tuples == \n\ntuple = (2,3,5,6)\nprint(tuple[0])",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "2\n"
+        }
+      ],
+      "execution_count": 45
+    },
+    {
+      "id": "c77ef509-7625-4359-9662-0eb0361671b8",
+      "cell_type": "code",
+      "source": "tup = (1,)\nprint(type(tup))",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "<class 'tuple'>\n"
+        }
+      ],
+      "execution_count": 49
+    },
+    {
+      "id": "4d4f1f9f-018b-44ca-a8e9-6d7f89ff3db0",
+      "cell_type": "code",
+      "source": "tup = (1,3,5,6,)\nprint(type(tup))",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "<class 'tuple'>\n"
+        }
+      ],
+      "execution_count": 50
+    },
+    {
+      "id": "af905065-982f-423b-86a0-13fc24ea45dc",
+      "cell_type": "code",
+      "source": "tup = (1,3,5,6,)\nprint(tup[1:3])",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "(3, 5)\n"
+        }
+      ],
+      "execution_count": 52
+    },
+    {
+      "id": "cfde4eee-3208-4e1d-91ba-23eaf582cb8d",
+      "cell_type": "code",
+      "source": "#tuplemethods\ntup = (2,3,46,3)\nprint(tup.count(2))\nprint(tup.count(3))",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "1\n2\n"
+        }
+      ],
+      "execution_count": 54
+    },
+    {
+      "id": "43db79f5-27ad-4617-849a-0ce3a31af877",
+      "cell_type": "code",
+      "source": "movies = []\nmov1 = input(\"enter 1st movies:\")\nmov2 = input(\"enter 2st movies:\")\nmov3 = input(\"enter 3st movies:\")\n\nmovies.append(mov1)\nmovies.append(mov2)\nmovies.append(mov3)\nprint(movies)",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdin",
+          "text": "enter 1st movies: ram ram\nenter 2st movies: radhe radhe\nenter 3st movies: hare hare\n"
+        },
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "['ram ram', 'radhe radhe', 'hare hare']\n"
+        }
+      ],
+      "execution_count": 59
+    },
+    {
+      "id": "1c38618c-2f90-4ccc-8754-f9a1cc5a9bf9",
+      "cell_type": "code",
+      "source": "list1 = [1,2,1,]\nlist2 = [1,2,3]\ncopy_list1 == copy_list2()\ncopy_list1.reverse()\nif (copy_list1 == copy_list2):\n    print(\"palindrome\")\nelse:\n    print(\"not palindrome\")",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "ename": "<class 'NameError'>",
+          "evalue": "name 'copy_list1' is not defined",
+          "traceback": [
+            "\u001b[31m---------------------------------------------------------------------------\u001b[39m",
+            "\u001b[31mNameError\u001b[39m                                 Traceback (most recent call last)",
+            "\u001b[36mCell\u001b[39m\u001b[36m \u001b[39m\u001b[32mIn[71]\u001b[39m\u001b[32m, line 3\u001b[39m\n\u001b[32m      1\u001b[39m list1 = [\u001b[32m1\u001b[39m,\u001b[32m2\u001b[39m,\u001b[32m1\u001b[39m,]\n\u001b[32m      2\u001b[39m list2 = [\u001b[32m1\u001b[39m,\u001b[32m2\u001b[39m,\u001b[32m3\u001b[39m]\n\u001b[32m----> \u001b[39m\u001b[32m3\u001b[39m \u001b[43mcopy_list1\u001b[49m == copy_list2()\n\u001b[32m      4\u001b[39m copy_list1.reverse()\n\u001b[32m      5\u001b[39m \u001b[38;5;28;01mif\u001b[39;00m (copy_list1 == copy_list2):\n",
+            "\u001b[31mNameError\u001b[39m: name 'copy_list1' is not defined"
+          ],
+          "output_type": "error"
+        }
+      ],
+      "execution_count": 71
+    },
+    {
+      "id": "438cb9a6-2329-44af-bca3-c9cd02aed645",
+      "cell_type": "code",
+      "source": "",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": null
+    },
+    {
+      "id": "1f51ef6c-6444-45a6-bf85-cfb8bbdffb4f",
+      "cell_type": "code",
+      "source": " # DICTIONARY in python\n\ndict = {\n    \"key\" :\"shubham\",\n    \"name\" : \"jain\",\n    \"sub\" : ['phy','chem']\n}\nprint(dict)",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "{'key': 'shubham', 'name': 'jain', 'sub': ['phy', 'chem']}\n"
+        }
+      ],
+      "execution_count": 74
+    },
+    {
+      "id": "d72f32ca-d84d-42c6-9fba-6541c002c000",
+      "cell_type": "code",
+      "source": "dict = {\n    \"key\" :\"shubham\",\n    \"name\" : \"jain\",\n    \"sub\" : ['phy','chem']\n}\n\nprint(dict[\"key\"])  ",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "shubham\n"
+        }
+      ],
+      "execution_count": 84
+    },
+    {
+      "id": "61435d62-4015-44fe-a6f9-5715a91dcb26",
+      "cell_type": "code",
+      "source": "stu = {\n    \"name\" : \"hubh\",\n    \"sub\" : \"hindi\"\n}\nprint(stu[\"name\"],[\"sub\"])",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "hubh ['sub']\n"
+        }
+      ],
+      "execution_count": 82
+    },
+    {
+      "id": "07d89967-fc75-4cff-a238-cd7f8764d574",
+      "cell_type": "code",
+      "source": "dict = {\n    \"key\" :\"shubham\",\n    \"name\" : \"jain\",\n    \"sub\" : ['phy','chem']\n}\n\nprint(dict.values())",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "dict_values(['shubham', 'jain', ['phy', 'chem']])\n"
+        }
+      ],
+      "execution_count": 86
+    },
+    {
+      "id": "11ac15e0-0d05-4904-92bd-6afc3eb687f6",
+      "cell_type": "code",
+      "source": "dict = {\n    \"key\" :\"shubham\",\n    \"name\" : \"jain\",\n    \"sub\" : ['phy','chem']\n}\n\nprint((dict).items())",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "dict_items([('key', 'shubham'), ('name', 'jain'), ('sub', ['phy', 'chem'])])\n"
+        }
+      ],
+      "execution_count": 88
+    },
+    {
+      "id": "4c0a483a-9b56-4524-a37d-bc54f300fef6",
+      "cell_type": "code",
+      "source": "dict = {\n    \"key\" :\"shubham\",\n    \"name\" : \"jain\",\n    \"sub\" : ['phy','chem']\n}\n\nprint(dict.get)  ",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "<built-in method get of dict object at 0x2c80be8>\n"
+        }
+      ],
+      "execution_count": 89
+    },
+    {
+      "id": "e7d0a885-44a2-4d44-895b-aa2e7640d73d",
+      "cell_type": "code",
+      "source": "#sets == \ncoll = {1,2,3,4,\"shubh\",4,1}\nprint(coll)\nprint(len(coll))\nprint(type(coll))\ncoll.add(5)\nprint(coll)\ncoll.remove(5)\nprint(coll)\ncoll.clear()\nprint(coll)\n",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "{1, 2, 3, 4, 'shubh'}\n5\n<class 'set'>\n{1, 2, 3, 4, 'shubh', 5}\n{1, 2, 3, 4, 'shubh'}\nset()\n"
+        }
+      ],
+      "execution_count": 23
+    },
+    {
+      "id": "fa220c78-6729-4e5f-89b6-fb942e684e6e",
+      "cell_type": "code",
+      "source": "coll1 = {1,2,3}\ncoll2= {4,2,5}\nprint(coll1.union(coll2))\nprint(coll1.intersection(coll2))",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "{1, 2, 3, 4, 5}\n{2}\n"
+        }
+      ],
+      "execution_count": 28
+    },
+    {
+      "id": "bf957948-802a-4294-b377-0cc925063151",
+      "cell_type": "code",
+      "source": "i = 1\nwhile i <=5:\n    print(\"hello\")\n    count+1\nprint(count)",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": null
+    },
+    {
+      "id": "db5bfb55-895f-4f76-9992-637f5902adf2",
+      "cell_type": "code",
+      "source": "class Student:\n    pass\n\ns1 = Student()\nprint(type(s1)) ",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "<class '__main__.Student'>\n"
+        }
+      ],
+      "execution_count": 1
+    },
+    {
+      "id": "5a3bfa77-630d-418d-90ac-c5da748ae258",
+      "cell_type": "code",
+      "source": "class Student:\n    def __init__(self):\n        print(\"Constructor Called\")\n\ns1 = Student()",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "Constructor Called\n"
+        }
+      ],
+      "execution_count": 2
+    },
+    {
+      "id": "07c66e13-a09e-40ca-90ac-8f93ef346348",
+      "cell_type": "code",
+      "source": "class Student:\n    def __init__(self,name,age):\n        self.name=name\n        self.age=age\n\ns1=Student(\"Rahul\",20)\n\nprint(s1.name)\nprint(s1.age)",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "Rahul\n20\n"
+        }
+      ],
+      "execution_count": 3
+    },
+    {
+      "id": "c5f9da0a-0022-47ec-9dd9-02bd9e775f38",
+      "cell_type": "code",
+      "source": "class Student:\n    def show(self):\n        print(\"Hello\")\n\ns=Student()\ns.show()",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "Hello\n"
+        }
+      ],
+      "execution_count": 4
+    },
+    {
+      "id": "81af9a69-1ecb-4586-b2e5-65ddd89228a5",
+      "cell_type": "code",
+      "source": "class Student:\n    def __init__(self,name):\n        self.name=name\n\ns=Student(\"Ram\")\nprint(s.name)",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "Ram\n"
+        }
+      ],
+      "execution_count": 5
+    },
+    {
+      "id": "3836d220-8805-46e8-a5f6-6f96c60f8af9",
+      "cell_type": "code",
+      "source": "class Student:\n    def show(self):\n        print(\"Hello Student\")\n\ns=Student()\ns.show()",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "Hello Student\n"
+        }
+      ],
+      "execution_count": 6
+    },
+    {
+      "id": "8a96e428-6643-47c0-9032-844f4d105efb",
+      "cell_type": "code",
+      "source": "class Animal:\n    def sound(self):\n        print(\"Animal Sound\")\n\nclass Dog(Animal):\n    pass\n\nd=Dog()\nd.sound()",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "Animal Sound\n"
+        }
+      ],
+      "execution_count": 7
+    },
+    {
+      "id": "3c1504b4-4bd1-4e96-bade-3cbca6ae4c50",
+      "cell_type": "code",
+      "source": "class A:\n    def show(self):\n        print(\"Class A\")\n\nclass B(A):\n    pass\n\nobj=B()\nobj.show()",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "Class A\n"
+        }
+      ],
+      "execution_count": 8
+    },
+    {
+      "id": "8bc183ee-1a3e-417d-8e11-2d09d22bac57",
+      "cell_type": "code",
+      "source": "class A:\n    def show(self):\n        print(\"A\")\n\nclass B(A):\n    pass\n\nclass C(B):\n    pass\n\nobj=C()\nobj.show()",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "A\n"
+        }
+      ],
+      "execution_count": 9
+    },
+    {
+      "id": "f35248f7-25fb-4cac-a0f8-0ed6c5c6b3fa",
+      "cell_type": "code",
+      "source": "class A:\n    def fun1(self):\n        print(\"A\")\n\nclass B:\n    def fun2(self):\n        print(\"B\")\n\nclass C(A,B):\n    pass\n\nobj=C()\nobj.fun1()\nobj.fun2()",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "A\nB\n"
+        }
+      ],
+      "execution_count": 10
+    },
+    {
+      "id": "01fc3c3f-c448-477b-88c4-3bdea328952d",
+      "cell_type": "code",
+      "source": "class A:\n    def show(self):\n        print(\"A\")\n\nclass B(A):\n    pass\n\nclass C(A):\n    pass\n\nb=B()\nc=C()\n\nb.show()\nc.show()",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "A\nA\n"
+        }
+      ],
+      "execution_count": 11
+    },
+    {
+      "id": "efef9200-4406-4c7d-9e2b-bd7f0f798b6f",
+      "cell_type": "code",
+      "source": "class Dog:\n    def sound(self):\n        print(\"Bark\")\n\nclass Cat:\n    def sound(self):\n        print(\"Meow\")\n\nfor i in (Dog(),Cat()):\n    i.sound()\n    ",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "Bark\nMeow\n"
+        }
+      ],
+      "execution_count": 12
+    },
+    {
+      "id": "a60cd4e3-8d11-43bf-9e6a-dbc8b0f1632c",
+      "cell_type": "code",
+      "source": "",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": null
+    },
+    {
+      "id": "a8bd1c67-bc04-454f-b8ea-c36e6bb3da5f",
+      "cell_type": "code",
+      "source": "",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": null
+    },
+    {
+      "id": "59f30615-4ff9-4d59-a5b3-8aa8c0710598",
+      "cell_type": "code",
+      "source": "",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": null
+    },
+    {
+      "id": "43d7a25a-add7-4180-ae27-57ef7978cee9",
+      "cell_type": "code",
+      "source": "",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": null
+    },
+    {
+      "id": "56b4f62d-9c56-4dd1-a028-ba815abab9a9",
+      "cell_type": "code",
+      "source": "",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": null
+    },
+    {
+      "id": "3dd7da3b-2758-418c-bfd8-630d54e2fc3c",
+      "cell_type": "code",
+      "source": "",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": null
+    },
+    {
+      "id": "27a148d0-1d36-45d1-88e8-db2ad0a55ef1",
+      "cell_type": "code",
+      "source": "",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": null
+    },
+    {
+      "id": "f32e4a59-3652-40be-b8e3-7c10ddbb28cd",
+      "cell_type": "code",
+      "source": "",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": null
+    },
+    {
+      "id": "93c62638-448e-46b9-bf3e-390b005d4344",
+      "cell_type": "code",
+      "source": "",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": null
+    }
+  ]
+}
