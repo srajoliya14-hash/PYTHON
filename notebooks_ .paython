@@ -1,0 +1,125 @@
+{
+  "metadata": {
+    "kernelspec": {
+      "name": "xpython",
+      "display_name": "Python 3.13 (XPython)",
+      "language": "python"
+    },
+    "language_info": {
+      "codemirror_mode": {
+        "name": "ipython",
+        "version": 3
+      },
+      "file_extension": ".py",
+      "mimetype": "text/x-python",
+      "name": "python",
+      "nbconvert_exporter": "python",
+      "pygments_lexer": "ipython3",
+      "version": "3.13.1"
+    }
+  },
+  "nbformat_minor": 5,
+  "nbformat": 4,
+  "cells": [
+    {
+      "id": "b7e0f48a-53c1-4d4c-a33a-a2e8330df90d",
+      "cell_type": "code",
+      "source": "class car:\n    def move():\n        print(\"this car is movig\")\ncar.move()\n",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "this car is movig\n"
+        }
+      ],
+      "execution_count": 2
+    },
+    {
+      "id": "fde56f2c-d5b0-468e-888b-c10d1e64d031",
+      "cell_type": "code",
+      "source": "class car:\n    def move(self):\n        print(\"this car is movig\")\nobj1 = car()\nobj1.move()",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "this car is movig\n"
+        }
+      ],
+      "execution_count": 4
+    },
+    {
+      "id": "8dd79268-99ee-406f-b4f9-8b72477f40db",
+      "cell_type": "code",
+      "source": "class student:\n    school = \"regex\"\n    def __init__(self,name,age):\n        self.name = name\n        self.age = age\n\n    def display(self):\n        print(\"this students school=\", self.school)\n\no1 = student(\"mohit\",25)\no1.display()\n\n    ",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "this students school= regex\n"
+        }
+      ],
+      "execution_count": 8
+    },
+    {
+      "id": "ace29d6b-afa3-41d7-ac47-0422eebec670",
+      "cell_type": "code",
+      "source": "class caluculator:\n    def __init__(self,num1,num2):\n        self.num1 = num1\n        self.num2 = num2\n    def add(self):\n        print(\"this sum =\",self.num1+self.num2)\n    def subtract(self):\n        print(\"this subtract =\",self.num1-self.num2)\n    def multiple(self):\n        print(\"this multiple =\",self.num1*self.num2)\n    def divide(self):\n        print(\"this divide =\",self.num1/self.num2)\no1 = caluculator(100,300)\no1.add()\no1.subtract()\no1.multiple()\no1.divide()",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "this sum = 400\nthis subtract = -200\nthis multiple = 30000\nthis divide = 0.3333333333333333\n"
+        }
+      ],
+      "execution_count": 11
+    },
+    {
+      "id": "94828713-e22f-49df-93fe-0f9ce7985892",
+      "cell_type": "code",
+      "source": "",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": null
+    },
+    {
+      "id": "02650563-61a2-4865-8a62-4de86603f287",
+      "cell_type": "code",
+      "source": "",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": null
+    },
+    {
+      "id": "cd6f3a3b-cc48-4e75-988d-2c06f4aadb00",
+      "cell_type": "code",
+      "source": "class bank:\n    def __init__(self,name,balance):\n        self.name = name\n        self.balance = balance\n        \n    def wid(self,wid_amount):\n        #wid_amount = int(input(\"enter your amount\"))\n        self.balance-=wid_amount\n        print(\" new balance =\",self.balance)\n        \n   \no1 = bank(\"mohit\",10000000)\no1.wid(5600)\n ",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": " new balance = 9994400\n"
+        }
+      ],
+      "execution_count": 2
+    }
+  ]
+}
