@@ -1,0 +1,139 @@
+{
+  "metadata": {
+    "kernelspec": {
+      "name": "python",
+      "display_name": "Python (Pyodide)",
+      "language": "python"
+    },
+    "language_info": {
+      "codemirror_mode": {
+        "name": "python",
+        "version": 3
+      },
+      "file_extension": ".py",
+      "mimetype": "text/x-python",
+      "name": "python",
+      "nbconvert_exporter": "python",
+      "pygments_lexer": "ipython3",
+      "version": "3.8"
+    }
+  },
+  "nbformat_minor": 5,
+  "nbformat": 4,
+  "cells": [
+    {
+      "id": "bc20e03e-2c76-4419-bab0-8af9bf6a2e3f",
+      "cell_type": "code",
+      "source": "what is pythan ? = python is a high level programming language\n    python is most popular language\n    beginner friendly language\n    easy to learn language\n    free(open source) language\n    simple syntax language\n    dynamically typed ",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": null
+    },
+    {
+      "id": "0fbe4b68-2f95-4d5f-9485-1a3e18ec4a23",
+      "cell_type": "code",
+      "source": "print(\"hello world\")",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "hello world\n"
+        }
+      ],
+      "execution_count": 1
+    },
+    {
+      "id": "2180dc56-297b-4d17-8b55-42a553e86776",
+      "cell_type": "code",
+      "source": "a = 5\nb = 66\nc = a + b\nprint(a)\nprint(5+6)\nprint(\"5+6\")\nprint(c)\n ",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "5\n11\n5+6\n71\n"
+        }
+      ],
+      "execution_count": 8
+    },
+    {
+      "id": "c1d94ba1-4fe5-4504-bde5-53a8ee289b16",
+      "cell_type": "code",
+      "source": "instructor = 'shubham'\nprint(\"python by\",instructor)",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "python by shubham\n"
+        }
+      ],
+      "execution_count": 4
+    },
+    {
+      "id": "2d45702e-8042-4a47-9639-99d21bd239fd",
+      "cell_type": "code",
+      "source": "my_name = shubham --error\nmy_name = \"shubham\" -- easy run\n",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": null
+    },
+    {
+      "id": "46d52827-3851-4bc5-bc5e-7cbcc4b5e421",
+      "cell_type": "code",
+      "source": "interpreter = translates krta hai apne code ko computer ki languege\n            = execution line by line\n            = exm python , ",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": null
+    },
+    {
+      "id": "e1a17155-1ee7-441d-857b-fcfc2fa01e41",
+      "cell_type": "code",
+      "source": "variables as container\n\nvariables_name  =  value \nex = greeting = \"hello\"",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": null
+    },
+    {
+      "id": "48b169a0-e63b-4550-8af1-8d17a2b25379",
+      "cell_type": "code",
+      "source": "a = 1 \nprint(a)\nb = 1.899\nc = a/b\nprint(c)\n#d = shubham\n#print(d)  #error\ne = \"shubham\"\nprint(e)\nX =10# adding a number\nprint(X+380)\n\nshubh = 35\nf = shubh\nprint(f)\n",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "1\n0.526592943654555\nshubham\n390\n35\n"
+        }
+      ],
+      "execution_count": 16
+    },
+    {
+      "id": "680cc619-1748-4f4e-8108-4bf33d15b63d",
+      "cell_type": "code",
+      "source": "",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": null
+    }
+  ]
+}
